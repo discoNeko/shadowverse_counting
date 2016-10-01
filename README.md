@@ -1,0 +1,1 @@
+# shadowverse_counting
