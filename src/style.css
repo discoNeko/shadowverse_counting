@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+	font-family:"meiryo";
+	background-color: #ddd;
+}
+
+.form {
+	padding: 0 1em;
+}
+
+textarea{
+	float: left;
+	width: 620;
+	height: 15em;
+	font-size:20pt;
+	border-radius:5px;
+	border:solid 5px #1dd;
+	overflow:auto;
+}
+
+textarea:focus {
+	box-shadow: 0 0 5px #1dd;
+	border:solid 5px #1dd;
+}
+
+#board {
+	height: 30%;
+	padding: 0 0.25em 1em 0.25em;
+	width: 610;
+}
+#board2 {
+	padding: 0 0.25em 1em 0.25em;
+	width: 610;
+}
+
+#main {
+	padding: 0 1em;
+}
+
+a.btn {
+	vertical-align:middle;
+	display: inline-block;
+	width: 180px;
+	height: 40px;
+	margin: auto;
+	padding: 10px 10px;
+	border: 1px solid #222;
+	background: transparent;
+	color: #222;
+	text-align: center;
+	text-decoration: none;
+	line-height: 1;
+	transition: .3s;
+}
+
+a.btn:hover {
+	background: #222;
+	color: #fff;
+}
+
+header {
+	margin: auto;
+	text-align: center;
+	padding: 1em;
+	background-color: #aaa;
+}
+
+footer {
+	margin: auto;
+	text-align: center;
+	padding: 1em;
+	background-color: #aaa;
+}
+
+}
